@@ -1,3 +1,4 @@
+require 'pry'
 def fizzbuzz(number)
   if number % 3 == 0 && number % 5 == 0
     "fizzbuzz"
@@ -9,3 +10,4 @@ def fizzbuzz(number)
     number
   end
 end
+binding.pry
