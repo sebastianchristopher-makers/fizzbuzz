@@ -10,4 +10,4 @@ def fizzbuzz(number)
     number
   end
 end
-binding.pry
+# binding.pry
